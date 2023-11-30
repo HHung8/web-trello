@@ -22,6 +22,7 @@ function Templated() {
   return (
     <Box>
       <Button
+        sx={{ color: "white" }}
         id="basic-button-templated"
         aria-controls={open ? "basic-menu-templated" : undefined}
         aria-haspopup="true"
