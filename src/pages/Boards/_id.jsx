@@ -7,8 +7,8 @@ import { mockData } from "~/apis/mok-data";
 function Board() {
   return (
     <Container disableGutters maxWidth={false} sx={{ height: "100vh" }}>
-      <AppBar />
-      <BoardBar board={mockData?.board} />
+      {/* <AppBar /> */}
+      {/* <BoardBar board={mockData?.board} /> */}
       <BoardContent board={mockData?.board} />
     </Container>
   );
